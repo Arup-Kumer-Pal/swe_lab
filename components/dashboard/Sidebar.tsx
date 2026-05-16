@@ -1,3 +1,4 @@
+// Optimized for Medicore4
 import React from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import { MedicalIcon } from '../icons/MedicalIcon';
@@ -48,7 +49,7 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, setIsOpen, hospitalName, subd
 
   return (
     <>
-      <aside className={`fixed top-0 left-0 z-50 w-64 h-screen bg-slate-800 text-white flex flex-col transition-transform duration-300 md:translate-x-0 ${isOpen ? 'translate-x-0' : '-translate-x-full'}`}>
+      <aside className={`fixed top-0 left-0 z-50 w-64 h-screen bg-slate-900 text-white flex flex-col transition-transform duration-300 md:translate-x-0 ${isOpen ? 'translate-x-0' : '-translate-x-full'}`}>
         <div className="flex items-center justify-between px-6 py-5 border-b border-slate-700">
           <Link to={baseDashboardPath} className="flex items-center gap-2">
              {logoUrl ? (
