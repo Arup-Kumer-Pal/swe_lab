@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { GoogleGenAI } from '@google/genai';
 import { auth, db, firebase } from '../firebase';
+
 import { PlanTier, ChatMessage } from '../types';
 import { ChatBubbleIcon } from './icons/ChatBubbleIcon';
 import { XIcon } from './icons/XIcon';
