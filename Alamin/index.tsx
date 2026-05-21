@@ -16,3 +16,4 @@ createRoot(container).render(
     </HashRouter>
   </React.StrictMode>
 );
+

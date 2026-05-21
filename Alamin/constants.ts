@@ -46,3 +46,4 @@ export const PLANS: Plan[] = [
     ctaText: 'Go Golden',
   },
 ];
+

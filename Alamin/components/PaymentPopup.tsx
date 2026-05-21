@@ -1,3 +1,4 @@
+// Optimized for Medicore3
 import React, { useState, useEffect } from 'react';
 import { Plan } from '../types';
 import { CheckCircleIcon } from './icons/CheckCircleIcon';
@@ -139,7 +140,7 @@ const PaymentPopup: React.FC<PaymentPopupProps> = ({ isOpen, onClose, plan, onPa
                                 </div>
                             )}
 
-                            <div className="bg-gray-100 -mx-6 -mb-5 mt-6 p-4 rounded-b-lg">
+                            <div className="bg-gray-50 -mx-6 -mb-5 mt-6 p-4 rounded-b-lg">
                                 <button
                                     type="submit"
                                     disabled={isProcessing}
